@@ -1,7 +1,7 @@
 pkgbase = lightworks
 	pkgdesc = Lightworks is a professional video editing suite
-	pkgver = 2023.2.147664
-	pkgrel = 2
+	pkgver = 2023.2.147988
+	pkgrel = 1
 	url = http://www.lwks.com/
 	arch = x86_64
 	license = custom
@@ -21,13 +21,14 @@ pkgbase = lightworks
 	depends = glu
 	depends = libedit
 	depends = nvidia-cg-toolkit
+	depends = twolame
 	optdepends = nvidia-utils: only for nVidia users
 	optdepends = libc++: only for BlackMagic RAW support (BRAW)
 	optdepends = libc++abi: only for BlackMagic RAW support (BRAW)
 	conflicts = lwks-beta
 	replaces = lwks
 	options = !strip
-	source = https://cdn.lwks.com/releases/2023.2/lightworks_2023.2_r144664.deb
-	sha512sums = 68754c26e8034d00c505f7b4ab861065f97eaebdc220c96da6a319d67058185340ae8843decfa2f569bd0da131cce977fc78be2e9a1a250410887b11f4f5ec06
+	source = https://cdn.lwks.com/releases/2023.2/lightworks_2023.2_r147988.deb
+	sha512sums = bdc6a4900403254464dd3ab030bc8c1652bd16eedbe7d8b8b27ea7bd00153449
 
 pkgname = lightworks
