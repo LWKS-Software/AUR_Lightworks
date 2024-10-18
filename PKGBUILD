@@ -1,4 +1,5 @@
-# Maintainer: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
+# Maintainer: Nick Walsh <nick [dot] walsh [at] lwks [dot] com>
+# Contributor: Marcin Nowak <marcin [dot] j [dot] nowak [at] gmail [dot] com>
 # Contributor: Mateus Rodrigues Costa <charles [dot] costar [at] gmail [dot] com>
 # Contributor: PieterDeBruijn <arch [at] pieterdebruijn [dot] nl [dot] com>
 # Contributor: stjhimy <stjhimy [at] gmail [dot] com>
@@ -11,7 +12,6 @@
 
 pkgname=lightworks
 lwksver=2023.2
-lwksreldir=2023.2
 lwksbuild=147988
 pkgver=$lwksver.$lwksbuild
 pkgrel=1
@@ -25,7 +25,7 @@ optdepends=('nvidia-utils: only for nVidia users' 'libc++: only for BlackMagic R
 conflicts=('lwks-beta')
 replaces=('lwks')
 source=(
-    "https://cdn.lwks.com/releases/$lwksreldir/lightworks_${lwksver}_r${lwksbuild}.deb"
+    "https://cdn.lwks.com/releases/$lwksver/lightworks_${lwksver}_r${lwksbuild}.deb"
     )
 
 package() {
